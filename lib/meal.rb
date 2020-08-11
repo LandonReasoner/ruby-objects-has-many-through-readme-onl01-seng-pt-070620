@@ -5,10 +5,9 @@ class Meal
   @@all = []
   
   def initialize(waiter, customer, total, tip=0)
+    
     @total = total
     @tip = tip
-    @waiter = waiter
-    @customer = customer
     @@all << self 
   end
   
